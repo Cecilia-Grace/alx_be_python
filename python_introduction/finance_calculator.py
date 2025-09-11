@@ -4,5 +4,5 @@ monthly_expenses = input("Enter your total monthly expenses: ")
 monthly_savings = int(monthly_income) - int(monthly_expenses)
 print(f'Your monthly savings are ${monthly_savings}')
 
-Projected_savings = (monthly_savings * 12 + (0.05 * monthly_savings * 12))
-print(f'Projected savings after one year, with interest, is: ${Projected_savings}')
+projected_savings = (monthly_savings * 12 + (0.05 * monthly_savings * 12))
+print(f'Projected savings after one year, with interest, is: ${int(projected_savings)}.')
