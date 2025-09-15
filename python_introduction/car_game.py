@@ -21,4 +21,4 @@ while action.lower():
         print("Game ended. See you soon!")
         break
     else:
-        print("Please read the intructions above.")
+        print("Please read the instructions above.")
