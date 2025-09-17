@@ -9,12 +9,22 @@ Each script is focused on a specific concept such as loops, conditionals, functi
 - To build a foundation for larger projects in the future.  
 
 ## 🛠️ Topics Covered
-- Variables & Data Types  
-- Conditionals (if/else)  
-- Loops (for, while)  
-- Functions  
-- File Handling  
-- Basic Problem Solving  
+Introduction
+Variables
+Receiving Input
+Type Conversion
+Strings
+Formatted Strings
+String Methods
+Arithmetic Operations
+Operator Precedence
+Math Functions
+If Statements
+Logical Operators
+Comparison Operators 
+While Loops
+
+**Still addding on the topic I've covered**
 
 ## ✅ Example
 **savings_goal.py**  
@@ -24,13 +34,18 @@ A small script that uses a `while` loop to help save money until a goal is reach
 goal_saving = 5000
 month = 1
 saving = 0
+monthly_saving = 0
 
-while saving < goal_saving:
+while int(saving) < goal_saving:
     monthly_saving = int(input(f"Month {month} saving: "))
     saving += monthly_saving
-    month += 1
-
-print(f"Goal reached! Total savings: ${saving}")
+    month +=1
+  
+    if saving < goal_saving:
+        print(f"You total is: {saving}")
+    else:
+        print(f"!!!GOAL OF $5000 REACHED. YOUR SAVINGS IS: ${saving}!!!")
+        break    
 ```
 
 ## 🌱 Next Steps
