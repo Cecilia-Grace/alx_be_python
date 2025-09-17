@@ -9,20 +9,20 @@ Each script is focused on a specific concept such as loops, conditionals, functi
 - To build a foundation for larger projects in the future.  
 
 ## 🛠️ Topics Covered
-Introduction
-Variables
-Receiving Input
-Type Conversion
-Strings
-Formatted Strings
-String Methods
-Arithmetic Operations
-Operator Precedence
-Math Functions
-If Statements
-Logical Operators
-Comparison Operators 
-While Loops
+- Introduction
+- Variables
+- Receiving Input
+- Type Conversion
+- Strings
+- Formatted Strings
+- String Methods
+- Arithmetic Operations
+- Operator Precedence
+- Math Functions
+- If Statements
+- Logical Operators
+- Comparison Operators 
+- While Loops
 
 **Still addding on the topic I've covered**
 
