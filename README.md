@@ -23,6 +23,12 @@ Each script is focused on a specific concept such as loops, conditionals, functi
 - Logical Operators
 - Comparison Operators 
 - While Loops
+- For loops
+- Nested loops
+- Functions
+- Parameters
+- Keyword Arguments 
+- Return Statement
 
 **Still addding on the topic I've covered**
 
