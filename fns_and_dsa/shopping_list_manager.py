@@ -14,11 +14,11 @@ def main():
         user_choice = input("Enter choice from the above: ")
 
         if user_choice == "1":
-            added_item = input("Type the item you want to add to the shopping list: ")
+            added_item = input("Enter the item to add: ")
             shopping_list.append(added_item)
             print(f"You have added: {added_item}")
         elif user_choice == "2":
-            removed_item = input("Type the item you want to remove from the shopping list: ")
+            removed_item = input("Enter the item to remove: ")
             shopping_list.remove(removed_item)
             print(f"You have removed: {removed_item}")
         elif user_choice == "3":
