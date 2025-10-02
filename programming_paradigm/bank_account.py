@@ -1,7 +1,6 @@
 class BankAccount:
-    def __init__(self, account_balance):
+    def __init__(self, account_balance = 0):
         self.account_balance = account_balance
-        account_balance = 0
                 
 
     def deposit(self, amount):
@@ -17,7 +16,7 @@ class BankAccount:
             
             
     def display_balance(self):
-        print(f"Current balance: ${self.account_balance}")
+        print(f"Current Balance: ${self.account_balance}")
 
 
 
