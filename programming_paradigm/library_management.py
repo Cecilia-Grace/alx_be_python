@@ -24,10 +24,10 @@ class Library:
             return False
         return False
     
-    def return_book(self, title, author):
-        if title not in self._books:
-            self._books.append(title)
-                
+    def return_book(self, title):
+        for book in self._books:
+            if title not in self._books:
+                return True
         
     
     def list_available_books(self):
