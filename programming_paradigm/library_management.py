@@ -25,7 +25,6 @@ class Library:
         return False
     
     def return_book(self, title):
-        for book in self._books:
             if title not in self._books:
                 return True
         
