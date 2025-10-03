@@ -9,12 +9,9 @@ class Book:
         return f"{self.title} by {self.author}"
         
 class Library:
-    def __init__(self, _books = None):
-        if _books is None:
-            self._books = []
-        else:
-            self._books = _books 
-            
+    def __init__(self):
+        self._books = []
+       
         
     def add_book(self, new_book):
         self._books.append(new_book)
@@ -24,7 +21,8 @@ class Library:
         for book in self._books:
             if book.title == title:
                 self._books.remove(book)
-        
+            return False
+        return False
     
     def return_book(self, title, author):
         if title not in self._books:
