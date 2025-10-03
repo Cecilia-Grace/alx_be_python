@@ -21,14 +21,14 @@ class Library:
         for book in self._books:
             if book.title == title:
                 self._books.remove(book)
-            return False
-        return False
+                return True
     
     def return_book(self, title):
-            if title not in self._books:
-                return True
+        if title not in self._books:
+            self._books.append(title)
+            return True
+            
         
-    
     def list_available_books(self):
         for book in self._books:
                 print(book)
