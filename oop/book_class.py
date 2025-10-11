@@ -3,7 +3,7 @@ class Book:
     def __init__(self, title, author, publication_year):
         self.title = title
         self.author = author
-        self.publication_year = int(publication_year)
+        self.year = int(publication_year)
         
     def __del__(self):
         print(f"Deleting {self.title}")
